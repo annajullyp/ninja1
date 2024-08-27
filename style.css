@@ -1,0 +1,270 @@
+#cabecalhohome{
+    width:auto;
+    height:80px;
+    padding-left: 5px;
+    padding-top: 6px;
+}
+
+.menulogin {
+    list-style: none;
+    float: right;
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+.menulogin li {
+    position: relative;
+    float: left;
+	margin-top:2px;
+	margin-right:40px;
+}
+
+.menulogin li a {
+    color: #c52626;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menulogin li a:hover {
+    background: #c52626;
+    color: #fff;
+	border-radius:6px;
+}
+
+.menulogin li ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    display:none;
+}
+.menulogin li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.barra{
+    width:auto;
+    background-color: #c52626;
+    height:70px;
+    padding-top:3px;
+    margin-bottom: 10px;
+}
+
+.search-container{
+    width: 40%;
+    display: block;
+    margin-top:12px;
+  }
+  
+  input#search-bar{
+    margin-left:-17px;
+    float:left;
+    width: 100%;
+    height: 36px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #c52626;
+    border-radius:30px;
+    outline: none;
+    &:focus{
+      color: #5E3A61;
+      &::-webkit-input-placeholder{
+          opacity: 0;
+       }
+      &::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &:-ms-placeholder {
+       transition: opacity 0.45s ease; 
+         opacity: 0;
+       }    
+     }
+   }
+
+.menu {
+    list-style: none;
+    float: right;
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+	margin-top:-2px;
+	margin-right:100px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background: #fff;
+    color: #c52626;
+	border-radius:6px;
+}
+
+.menu li ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+#slide{
+    width:80%;
+    margin-top: 80px;
+    margin-left:125px;
+}
+
+#tophome{
+    width:auto;
+    height:33px;
+    margin-top: 15px;
+    background-color: #fff;
+    color:#c52626;
+    font-family: 'Courier New';
+    font-size: 24px;
+    font-weight:bold;
+    text-align: center;
+    text-decoration: none;
+    border-top: #c52626;
+    border-top:solid;
+    border-top-style: dotted;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.top{
+    margin-left: 20%;
+}
+
+#topdown{
+    width:auto;
+    height:5px;
+    margin-top: 10px;
+    border-top:solid #c52626;
+    border-top-style: dotted;
+}
+
+#rodape{
+    width:auto;
+    margin-top: 200px;
+    padding-top: 7px;
+    background-color: #c52626;
+    height:60px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color:#e76060;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #637ed6;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+    text-decoration: none;
+}
+
+.formLogin a:hover {
+    color: #637ed6;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #3fcd7c;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #ff0676;
+
+}
